@@ -22,7 +22,7 @@ $JBANG run tulip-cli@wfouche init Java
 $JBANG export gradle io/tulip/App.java
 cp benchmark_config.json App
 cd App
-gradle wrapper --gradle-version 8.9
+# gradle wrapper --gradle-version 8.9
 ./gradlew run
 popd
 
@@ -35,7 +35,7 @@ $JBANG run tulip-cli@wfouche init Groovy
 $JBANG export gradle io/tulip/App.groovy
 cp benchmark_config.json App
 cd App
-gradle wrapper --gradle-version 8.9
+# gradle wrapper --gradle-version 8.9
 ./gradlew run
 popd
 
@@ -48,7 +48,7 @@ $JBANG run tulip-cli@wfouche init Kotlin
 $JBANG export gradle io/tulip/App.kt
 cp benchmark_config.json App
 cd App
-gradle wrapper --gradle-version 8.9
+# gradle wrapper --gradle-version 8.9
 ./gradlew run
 popd
 
