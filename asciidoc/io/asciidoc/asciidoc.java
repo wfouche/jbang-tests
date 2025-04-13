@@ -2,6 +2,7 @@
 ///usr/bin/env jbang "$0" "$@" ; exit $?
 //DEPS org.asciidoctor:asciidoctorj:3.0.0
 //DEPS org.asciidoctor:asciidoctorj-diagram:2.3.1
+//JAVA 17
 
 package io.asciidoc;
 

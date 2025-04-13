@@ -1,1 +1,1 @@
-jbang export fatjar io/asciidoc/asciidoc.java
+jbang export fatjar --force io/asciidoc/asciidoc.java
